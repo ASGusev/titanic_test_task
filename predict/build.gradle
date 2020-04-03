@@ -10,10 +10,10 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0"
-    implementation "com.xenomachina:kotlin-argparser:2.0.7"
-    implementation "com.github.doyaaaaaken:kotlin-csv-jvm:0.7.3"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0"
+    compile "com.xenomachina:kotlin-argparser:2.0.7"
+    compile "com.github.doyaaaaaken:kotlin-csv-jvm:0.7.3"
 }
 
 compileKotlin {
